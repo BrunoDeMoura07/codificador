@@ -1,0 +1,8 @@
+[user]
+	email = brunnofarias16@gmail.com
+	name = "Bruno de Moura "
+[filter "lfs"]
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
